@@ -1,9 +1,17 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import ScriptMain from '../components/ScriptMain.astro';
+// import Json from '../data/SiteData.astro';
+import Header from '../components/Header.astro';
+import Nav from '../components/Nav.astro';
+import About from '../components/About.astro';
 
 ---
-<MainLayout title="Marias Naprapati">
-
-<ScriptMain /> 
+<MainLayout title="Daniels porfolio">
+<Nav />
+<Header />
+<About />
+<ScriptMain>
+<!-- <Json /> -->
+</ScriptMain>
 </MainLayout>
