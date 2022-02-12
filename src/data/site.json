@@ -1,0 +1,52 @@
+{
+  "title": "Daniel Brobäck | Web Developer",
+  "description": "Daniel Brobäck - Portfolio, Web developer",
+  "url": "https://chrisbongers.com/",
+  "author": "Daniel Brobäck",
+  "profile_pic": "",
+  "resume": "",
+  "nav": [
+    { "link": "#skills", "name": "Skills" },
+    { "link": "#work", "name": "Work" },
+    { "link": "#footer", "name": "Contact" },
+    {
+      "link": "https://daily-dev-tips.com/",
+      "name": "Blog",
+      "target": "_blank"
+    }
+  ],
+  "skills": {
+    "comfortable": [{ "name": "HTML5", "icon": "html5" }],
+    "mastering": [{ "name": "Flutter", "icon": "flutter" }]
+  },
+  "work": [
+    {
+      "title": "Yaatree",
+      "description": "Our amazing puppy, who goes on all kinds of cool adventures",
+      "image": "/assets/yaatree.jpg"
+    }
+  ],
+  "journey": {
+    "2030": [
+      {
+        "title": "Senior full stack remote developer ☁️",
+        "description": "It's my dream to be a senior full-stack developer who can work remotely."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "image": "/assets/nicole.jpg",
+      "name": "Nicole Bongers",
+      "title": "~ Wife",
+      "quote": "Daniel is an amazing husband and dog father!"
+    }
+  ],
+  "socials": [
+    {
+      "link": "https://github.com/dannebrob",
+      "title": "Github",
+      "icon": "codepen"
+    }
+  ]
+}
