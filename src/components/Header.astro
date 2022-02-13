@@ -4,7 +4,8 @@
 <style>
 .container {
     width: 100%;
-    height: 80vh;
+    min-height: 50vh;
+    max-height: 60vh;
     background-color: lightblue;
     display: flex;
     flex-direction: column;
@@ -12,7 +13,7 @@
 }
 
 .container h1{
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-left: 1vh;
     margin-right: 1vh;
 
@@ -22,37 +23,57 @@
 }
 
 #pic {
-    width: 100px;
+    width: 30vw;
     height: auto;
     margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
+   
 }
+
 .btn {
-    width: 10rem;
-    border: 0;
-    border-radius: 5px;
-    padding: 0;
-    background-color: lightgrey;
-
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 20px;
+  max-width: 40vw;
+  min-height: 50px;
+  min-width: 40vw;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-top: 10vh;
 }
 
-.btn:hover{
-    cursor: pointer;
-    border: 1px solid black;
-    
+.btn:hover,
+.btn:focus { 
+  background-color: #16437E;
+  color: #ffffff;
 }
+
+
 
 </style>
 <header>
 <div class="container">
-<h1>Hey! Im Daniel</h1> 
-<h2>Your Friendly Neighborhood Webdev</h2>
-<img id="pic"src="../assets/logo.jpg" alt="The logo">
+<h1>Hey! Im Daniel<span>✌️</span></h1> 
+<h2>Your Friendly Neighborhood Frontend Developer</h2>
+
 <div>
-<button class="btn hire">Hire me!</button>
 <button class="btn chat">Let's chat</button>
 </div>
-
+<!-- <img id="pic"src="../assets/avatar.png" alt="The logo"> -->
 
 </div><!-- End of container-->
 
