@@ -20,6 +20,7 @@ body {
   height: 100%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #f8f8ff;
 }
 /*
     Typographic tweaks!
@@ -74,6 +75,9 @@ h6 {
 ul {
   list-style: none;
 }
+ul li::before {
+  content: "🍩";
+}
 
 /* links */
 a {
@@ -81,4 +85,42 @@ a {
 }
 a:visited {
   color: inherit;
+}
+
+/* classes */
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.padding-top-2rem {
+  padding-top: 2rem;
+}
+
+.padding-top-1rem {
+  padding-top: 1rem;
+}
+.padding-bottom-1rem {
+  padding-bottom: 1rem;
+}
+
+.padding-bottom-2rem {
+  padding-bottom: 2rem;
+}
+
+.margin-top-1rem {
+  margin-top: 1rem;
+}
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+.margin-bottom-1rem {
+  margin-bottom: 1rem;
+}
+.margin-bottom-2rem {
+  margin-bottom: 2rem;
 }

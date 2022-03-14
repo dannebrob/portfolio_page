@@ -3,10 +3,114 @@
 ---
 <style> 
 .projects {
-    height: 80vh;
-    background-color: red;
+    hmin-height: 80vh;
+    
 }
-</style>
+.wrapper {
+min-width: 80vw;
+margin-left: 1rem;
+margin-right: 1rem;
+ display: flex;
+ flex-direction: column;
+
+}
+
+.container {
+    
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    overflow: hidden;
+}
+
+.card{
+
+}
+.card img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+   
+}
+
+.text-content{
+    width: 100%;
+  padding: 20px 0px 20px 20px;
+  color: gray;
+}
+.text-content .under-title{
+    color: gray;
+    font-size: 1rem;
+}
+
+.text-content .text {
+    color: black;
+}
+
+@media (min-width: 768px){
+    .wrapper {
+        display: flex;
+         flex-direction: row;
+         justify-content: center;
+        
+    }
+    .container {
+       
+        width: 40vw;
+        margin-left: 2rem;
+    }
+}
+
+</style> 
+
+
 <div class="projects">
-<h2>Projects</h2>
-</div>
+<h2 class="padding-bottom-2rem">Projects</h2>
+<div class="wrapper">
+
+<div class='container'>
+
+    <div class="card">
+        <div class='img'>
+        <img src="./assets/elinsPre.png" alt="Preview of Elins Glada Ekologiska Kor">
+    </div>
+    <div class='text-content'>
+        <h3 class="under-title">Wordpress</h3>
+        <h2 class="title">Elins Glada Ekologiska Kor</h2>
+        <a class='margin-bottom-2rem' href="https://www.elinsgladaekologiskakor.se/">(Take me there)</a>
+        <p class='text'>Built the website from the ground up. </p>
+        <p class="text">A project with close contact with the client. My current role on the project is webmaster of the site. </p>
+        <ul class="text padding-top-1rem padding-bottom-1rem">
+            <li>Built wordpress theme</li>
+            <li>Added content</li>
+            <li>Image optimizations</li>
+            <li>Responsive & Mobile-friendly</li>
+            <li>SEO</li>
+            <li>Hosting and DNS</li>
+        </ul>
+        <p class="text">Technologies Used: HTML, CSS, Wordpress, Javascript</p>
+        
+        </div>
+
+
+    </div> <!-- End of .card-->
+
+</div> <!--End of container-->
+
+<div class='container'>
+
+    <div class="card">
+        <div class='img'>
+        <img src="https://source.unsplash.com/random/800x501" alt="random image">
+    </div>
+    <div class='text-content'>
+        <h3 class="under-title">Womens right</h3>
+        <h2 class="title">The app</h2>
+        <p class='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nisi tenetur sequi temporibus neque tempore accusamus consectetur doloribus officiis, a consequatur molestiae recusandae dolorum natus minus cum illum architecto ad?</p>
+    </div>
+</div> <!-- End of .card-->
+
+
+</div> <!--end of .container-->
+</div> <!--End of .-wrapper-->
+</div> <!-- End of .project-->
